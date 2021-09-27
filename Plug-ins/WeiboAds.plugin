@@ -1,0 +1,28 @@
+[Rule]
+DOMAIN-suffix, wbpctips.mobile.sina.cn, REJECT
+DOMAIN-suffix, wbclick.mobile.sina.cn, REJECT
+DOMAIN-suffix, wbapp.mobile.sina.cn, REJECT
+DOMAIN-suffix, wb.gtimg.com, REJECT
+DOMAIN-suffix, wapwbclick.mobile.sina.cn, REJECT
+DOMAIN-suffix, weibocdn.com, DIRECT
+DOMAIN-suffix, weibo.com, DIRECT
+DOMAIN-suffix, zymo.mps.weibo.com, REJECT
+DOMAIN-suffix, weibomingzi.com, REJECT
+DOMAIN-suffix, sdkapp.uve.weibo.com, REJECT
+DOMAIN-suffix, s.alitui.weibo.com, REJECT
+DOMAIN-suffix, promote.biz.weibo.cn, REJECT
+DOMAIN-suffix, gw6.push.mcp.weibo.cn, REJECT
+DOMAIN-suffix, gw5.push.mcp.weibo.cn, REJECT
+DOMAIN-suffix, game.weibo.com, REJECT
+DOMAIN-suffix, game.weibo.cn, REJECT
+DOMAIN-suffix, biz.weibo.com, REJECT
+DOMAIN-suffix, alitui.weibo.com, REJECT
+DOMAIN-suffix, adimg.uve.weibo.com, REJECT
+
+[Script]
+# Weibo
+http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
+http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list|photo/info) requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+
+[MITM]
+hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
