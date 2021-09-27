@@ -1,5 +1,0 @@
-[Script]
-Q-Search = type=http-request,pattern=^https:\/\/duckduckgo.com\/\?q=.+,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/Q-Search.js
-
-[MITM]
-hostname = duckduckgo.com
