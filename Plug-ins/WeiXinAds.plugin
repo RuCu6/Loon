@@ -1,6 +1,6 @@
 [Script]
 # 微信 App 内被屏蔽链接快捷跳转 (weixin110.qq.com)
-http-response ^https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi script-path=https://raw.githubusercontent.com/HotKids/Rules/master/Script/weixin110.js,requires-body=1,timeout=10,tag=微信 App 内被屏蔽链接快捷跳转
+http-response ^https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/WeiXin_110.js,requires-body=1,timeout=10,tag=微信 App 内被屏蔽链接快捷跳转
 
 # 微信去广告 （mp.weixin.qq.com）
 http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,timeout=10,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js,tag=微信去广告
@@ -13,7 +13,7 @@ http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,t
 # http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js,tag=淘宝比价2
 
 # 支付宝二维码跳转
-http-request ^https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi script-path=https://raw.githubusercontent.com/HotKids/Rules/master/Script/weixin110.js,tag=支付宝二维码跳转
+http-request ^https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/WeiXin_110.js,tag=支付宝二维码跳转
 
 [MITM]
 # hostname = api.m.jd.com, trade-acs.m.taobao.com
