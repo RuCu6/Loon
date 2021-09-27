@@ -1,4 +1,5 @@
-#作者: https://github.com/Neurogram-R/Surge//blob/master/module/Q-Search.sgmodule
+# 感谢作者: Neurogram-R 
+# Github: https://github.com/Neurogram-R/Surge//blob/master/module/Q-Search.sgmodule
 
 [Script]
 Q-Search = type=http-request,pattern=^https:\/\/duckduckgo.com\/\?q=.+,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/Q-Search.js,tag=Q-Search
