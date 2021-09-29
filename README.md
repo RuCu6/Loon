@@ -5,5 +5,5 @@
 
 配置文件链接：
 ```Java
-https://raw.githubusercontent.com/RuCu6/QuanX/main/gooxtuu.conf
+https://raw.githubusercontent.com/RuCu6/Loon/main/gooxtuu.conf
 ```
