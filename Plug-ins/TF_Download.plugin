@@ -1,0 +1,6 @@
+# 该脚本订阅仅适用于Loon, 用于更新TestFlight App时, 提示"APP不可用"问题. 解除区域限制.
+
+http-request ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/TF_Download.js,tag=TF区域限制解除
+
+[MITM]
+hostname = testflight.apple.com
