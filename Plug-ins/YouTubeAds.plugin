@@ -1,6 +1,5 @@
-# YouTube去广告
-
 [URL Rewrite]
+# YouTube去广告
 (^https?:\/\/[\w-]+\.googlevideo\.com\/.+)(ctier=L)(&.+) $1$3 302
 ^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) _ reject
 
