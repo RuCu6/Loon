@@ -3,12 +3,10 @@
 
 # - Safari 内输入 命令 + 空格 + 关键词 快速指定搜索引擎搜索
 # 注: 先进入设置更改 Safari 默认搜索为 DuckDuckGO
-# 可自行修改指令或者添加搜索引擎
-
 # 无指令则默认为 Google 搜索
 
-# gh:    GitHub搜索
-# gm:    Google图片搜索
+# gh:    GitHub 搜索
+# gm:    Google 图片搜索
 # sof:   Stack Overflow
 # se:    StackExchange
 # wiki:  维基百科
@@ -40,8 +38,8 @@
 # ytb:   YouTube
 # ph:    PornHub 
 
-# gd:    Google Drive资源
-# tgd:   TG搜索Google Drive资源
+# gd:    Google Drive 资源
+# tgd:   TG 搜索 Google Drive 资源
 # zgd:   zhao GoogleDrive
 
 # bi:    必应
