@@ -1,6 +1,6 @@
 let persisVal = read("UnblockURLinWeChat");
 let taobaoNotifyJump = persisVal.taobaoNotifyJump === "false" ? false : true; //是否开启淘宝通知跳转，测试阶段微信已可跳转淘宝，故默认改为 false
-let useGoogleCache = persisVal.useGoogleCache === "false" ? false : true; //是否在微信中用谷歌快照显示被封禁的链接
+let useGoogleCache = persisVal.useGoogleCache === "true" ? false : true; //是否在微信中用谷歌快照显示被封禁的链接
 let wechatExportKey = persisVal.wechatExportKey || ""; //微信的一个 key，暂未研究如何生成，测试中仅 macOS 微信打开链接跳转浏览器时会缺失，导致无法解析原始链接
 if (typeof $argument != "undefined") {
     let arg = Object.fromEntries($argument.split("&").map((item) => item.split("=")));
