@@ -3,7 +3,7 @@
 #!openUrl = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
 #!author = 可莉🅥
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/
-#!icon = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Icon/60px/YouTube.png
+#!icon = https://cdn.jsdelivr.net/gh/RuCu6/Loon@master/Icons/Plugin/YouTube.png
 
 [Rule]
 URL-REGEX,^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext,REJECT-IMG
