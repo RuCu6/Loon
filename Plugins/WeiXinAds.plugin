@@ -1,5 +1,0 @@
-[Script]
-http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/WeiXin.js
-
-[MITM]
-hostname = mp.weixin.qq.com
