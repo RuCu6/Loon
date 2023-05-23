@@ -14,11 +14,13 @@
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbmensa\.research\.researchservice\.(acquire|event|close)\.cn\/1\.0\? reject-dict
 
 [Script]
-# 首页 底部标签页
-http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show\.cn\/1\.0\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
-# 首页 主页图标
-http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.homepage\.merge\.get\.cn\/1\.0\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
-http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.protocol\.homepage\.get\.cn\/1\.0\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
+# 首页
+http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show\.cn\/1\.0\? script-path = https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/cainiao.js, tag=底部标签页
+
+# 首页
+http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.homepage\.merge\.get\.cn\/1\.0\? script-path = https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/cainiao.js, tag=主页图标
+http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.protocol\.homepage\.get\.cn\/1\.0\? script-path = https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/cainiao.js, tag=主页图标
+
 # 阿里通用
 http-response ^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch$ script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amdc.js, timeout=10, tag=阿里通用
 
