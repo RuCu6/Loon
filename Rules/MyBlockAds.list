@@ -1,6 +1,11 @@
-# 2023-04-27 22:40
+# 2023-05-22 16:45
 
 # ======= A ======= #
+## 阿里云
+IP-CIDR,203.107.1.1/24,no-resolve
+# Apple
+DOMAIN, api-adservices.apple.com, REJECT
+DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
 # 安全浏览限制解除
 DOMAIN,lookup.api.bsb.baidu.com
 DOMAIN,proxy.safebrowsing.apple
@@ -12,7 +17,20 @@ DOMAIN,vs6.bj2ct.u3.ucweb.com
 DOMAIN-SUFFIX,safebrowsing.apple
 DOMAIN-SUFFIX,u3.ucweb.com
 
+# ======= B ======= #
+# 百度
+DOMAIN-SUFFIX, pos.baidu.com
+# 百度地图
+DOMAIN, afd.baidu.com
+DOMAIN, afdconf.baidu.com
+DOMAIN, httpdns.baidubce.com
+DOMAIN, lc.map.baidu.com
+# 百度贴吧
+IP-CIDR, 180.76.76.200/32
+
 # ======= C ======= #
+# ChatGPT
+DOMAIN, o33249.ingest.sentry.io
 # Clue 智库
 DOMAIN,api.helloclue.com
 DOMAIN,brahe.apptimize.com
@@ -32,13 +50,6 @@ DOMAIN,pubads.g.doubleclick.net
 DOMAIN,pagead2.googlesyndication.com
 DOMAIN,www.googleadservices.com
 DOMAIN-KEYWORD,adservice.google.com.
-
-# ======= H ======= #
-# HTTPDNS 服务器
-## 阿里云
-IP-CIDR,203.107.1.1/32,no-resolve
-## 百度贴吧
-IP-CIDR,186.76.76.200/32,no-resolve
 
 # ======= G ======= #
 # 高德地图
@@ -65,9 +76,7 @@ DOMAIN,tmeadcomm.y.qq.com
 
 # ======= L ======= #
 # 蓝奏云
-DOMAIN,pos.baidu.com
 DOMAIN,statics.woozooo.com
-DOMAIN,wn.pos.baidu.com
 
 # ======= M ======= #
 # 美颜相机
