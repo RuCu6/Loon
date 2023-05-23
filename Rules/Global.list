@@ -488,7 +488,7 @@ DOMAIN-SUFFIX,stash.ws
 DOMAIN-SUFFIX,stash.wiki
 DOMAIN-SUFFIX,stash-activation.com
 # > Punycode
-DOMAIN-KEYWORD, xn--, PROXY
+DOMAIN-KEYWORD, xn--
 # ---(机场)---
 DOMAIN,sub.jsy88.net
 # > 魔法学院
