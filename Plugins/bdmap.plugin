@@ -38,4 +38,5 @@ http-response ^https:\/\/newclient\.map\.baidu\.com\/client\/imap\/dl\/s\/Update
 # 我的页面
 http-response ^https:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/mine\/page\? script-path = https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bdmap.js, tag = 我的页面
 
+[MITM]
 hostname = newclient.map.baidu.com, yongche.baidu.com

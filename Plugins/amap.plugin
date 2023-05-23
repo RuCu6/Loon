@@ -60,4 +60,5 @@ http-response ^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource\?? script
 http-response ^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\? script-path = https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amap.js, tag = 打车订单详情
 http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\? script-path = https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amap.js, tag = 通用图层
 
+[MITM]
 hostname = m5.amap.com, m5-zb.amap.com, sns.amap.com
