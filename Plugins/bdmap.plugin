@@ -33,8 +33,9 @@ DOMAIN, lc.map.baidu.com, REJECT
 
 [Script]
 # 组件包
-^https:\/\/newclient\.map\.baidu\.com\/client\/imap\/dl\/s\/UpdateInfo\.php\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/map.js
+^https:\/\/newclient\.map\.baidu\.com\/client\/imap\/dl\/s\/UpdateInfo\.php\? script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/map.js, tag = 组件包
+
 # 我的页面
-^https:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/mine\/page\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/map.js
+^https:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/mine\/page\? script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/map.js, tag = 我的页面
 
 hostname = newclient.map.baidu.com, yongche.baidu.com

@@ -34,7 +34,7 @@ DOMAIN, free-aos-cdn-image.amap.com, REJECT
 
 [Script]
 # 阿里通用
-http-response ^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch$ script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amdc.js, timeout=10, tag=阿里通用
+http-response ^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch$ script-path = https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amdc.js, timeout = 10, tag = 阿里通用
 
 # 搜索页
 http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(common\/coupon\/info|poi\/detail)\? script-path = https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amap.js, tag = 搜索结果详情
